@@ -4,7 +4,6 @@ using System.Net;
 using UnityEngine;
 using Game.Api.Responses;
 using Game.Helpers;
-using Scatter.Api.Responses;
 
 namespace Game.Api.Clients
 {
@@ -16,6 +15,7 @@ namespace Game.Api.Clients
         {
             string route = "/account/register";
             string data = JsonUtility.ToJson(user);
+
 
             return await webClient.SendPostRequest(route, data);
         }

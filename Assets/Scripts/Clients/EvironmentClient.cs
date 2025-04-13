@@ -4,7 +4,6 @@ using System.Numerics;
 using Game.Api.Models;
 using Game.Api.Responses;
 using Game.Helpers;
-using Scatter.Api.Responses;
 using UnityEngine;
 
 namespace Game.Api.Clients

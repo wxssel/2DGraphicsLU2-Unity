@@ -5,7 +5,6 @@ using Game.Api;
 using Game.Helpers;
 using TMPro;
 using UnityEngine;
-using Scatter.Api.Responses;
 using System.Collections.Generic;
 
 namespace Game.Handler
@@ -86,7 +85,7 @@ namespace Game.Handler
             {
                 case WebRequestData<Environment2D> dataResponse:
                     Environment2D.id = dataResponse.Data.id;
-                    SceneLoader.LoadScene("Worlds");
+                    SceneLoader.Loadscene("Worlds");
                     break;
                 case WebRequestError errorResponse:
                     string errorMessage = errorResponse.ErrorMessage;

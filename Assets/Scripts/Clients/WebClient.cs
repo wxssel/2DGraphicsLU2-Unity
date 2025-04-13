@@ -1,7 +1,6 @@
 using System;
 using System.Text;
 using Game.Api.Responses;
-using Scatter.Api.Responses;
 using UnityEngine;
 using UnityEngine.Networking;
 namespace Game.Api.Clients

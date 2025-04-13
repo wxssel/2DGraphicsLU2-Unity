@@ -18,7 +18,6 @@ namespace Game.Api
         [field: SerializeField] public List<GameEvent> GameEvents { get; private set; }
 
         [Header("Variables")]
-        private bool _isLoggedIn;
         public Environment2D CurrentEnvironment { get; set; }
         public bool ShouldEnvironmentBeLoaded { get; set; } = false;
 
@@ -51,9 +50,7 @@ namespace Game.Api
                 GameEvents.Remove(gameEvent);
             }
         }
-        public bool IsUserLoggedIn()
-        {
-            return _isLoggedIn;
-        }
+        
+
     }
 }

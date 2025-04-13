@@ -1,6 +1,6 @@
-using Game.Api.Responses;
 
-namespace Scatter.Api.Responses
+
+namespace Game.Api.Responses
 {
     public class WebRequestError : IWebRequestReponse
     {

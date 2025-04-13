@@ -8,7 +8,6 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using Game.World;
-using Scatter.Api.Responses;
 
 namespace Game.Handler
 {
